@@ -1,0 +1,34 @@
+body {
+	background-image: url("../images/asanoha.png");
+	background-position: center;
+	background-repeat: repeat;
+}
+.jumbotron{
+	text-align: center;
+}
+#title{
+	border-style: solid;
+	background-color: red;
+}
+
+.rules{
+	border-style: solid;
+	background-color: green;
+}
+
+.num-goal{
+	border-style: solid;
+	background-color: gray;
+}
+.w-l{
+	border-style: solid;
+	background-color: gray;
+}
+
+.crystal{
+	border-style: solid;
+}
+.score{
+	border-style: solid;
+	background-color: blue;
+}

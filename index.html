@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	 <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script type="text/javascript" language="javascript" src="assets/javascript/game.js"></script>
+	<title>Crystals Collector</title>
+</head>
+<body>
+<div class="container">
+<div id="row">
+	<div id="col-lg-4">
+		<h1 id="title">Crystals Collector!</h1>
+	</div>
+</div>
+<div id="row">
+	<div id="col-lg-2">
+	<div class="rules jumbotron">
+		<p>You will be given a random number to start the game.</p>
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+		<p>You win the game by matching your score to the random number. You lose the game if your total score goes above the random number.</p>
+		<p>The value of each crystal is hidden until you click on it.</p>
+		<p>Each time the game restarts, the value of the crystals change.</p>
+	</div>
+	</div> 	
+</div>
+<div id="row">
+	<div class="num-goal" id="col-lg-3">
+		<h1>Current number to reach:</h1>
+		<h2 id="goal_num"></h2>
+	</div>
+	<div class="w-l" id="col-lg-2">
+		<h1>Wins: </h1>
+		<h2 class="w"></h2>
+		<h1>Losses: </h1>
+		<h2 class="l"></h2>
+	</div>
+</div>
+<div id="row">
+	<div id="col-lg-5">
+		<button class="blue-crystal"> <img src="assets/images/blue.png"></button>
+		<button class="green-crystal"> <img src="assets/images/green.png"></button>
+		<button class="red-crystal"> <img src="assets/images/red.png"></button>
+		<button class="yellow-crystal"> <img src="assets/images/yellow.png"></button>
+	</div>
+</div>
+<div id="row">
+	<div class="score" id="col-lg-5">
+		<h1>Your current score is:</h1>
+		<h1 id="total_score"></h1>
+	</div>
+</div>
+</div>
+</body>
+</html>
